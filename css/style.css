@@ -1,0 +1,367 @@
+.header {
+  background-color: white;
+  color: var(--black-text);
+}
+
+.btn-portf {
+  border: none;
+  background-color: var(--back-team);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px 6px 22px;
+}
+
+.btn-portf:hover,
+.btn-portf:focus {
+  background-color: var(--logo);
+  color: var(--white-text);
+  border: transparent;
+}
+
+.web {
+  color: var(--logo);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.footer-logo {
+  color: var(--white-text);
+}
+
+footer {
+  background-color: var(--fon);
+}
+
+.hero {
+  background-color: var(--fon);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+
+.header-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
+  color: var(--back-light-white);
+}
+
+.header-text:hover,
+.header-text:focus {
+  color: var(--logo);
+}
+
+.nav {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--logo);
+}
+
+.hero-centr {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4em;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.hero-href {
+  color: var(--white-text);
+  background-color: var(--logo);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9em;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 32px 10px 32px;
+  margin-top: 30px;
+}
+
+.h3-speh {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--back-light-white);
+  margin-bottom: 10px;
+}
+
+.h3-speh-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+  color: var(--back-light-white);
+}
+
+.our-deals {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--back-light-white);
+}
+
+.our-team {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  padding: 94px 0px 47px 0px;
+  margin: 0;
+}
+
+.team {
+  background-color: var(--back-team);
+}
+
+.names {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+}
+
+.name-project {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--back-light-white);
+}
+
+.text-project {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9em;
+
+  letter-spacing: 0.03em;
+}
+
+.studio {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.current {
+  color: var(--logo);
+}
+
+.adress-kiev {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+
+.header {
+  padding-left: 0;
+}
+
+.header-nav,
+.contacs-list,
+.nav-list {
+  display: flex;
+}
+
+.contacs-list {
+  margin-left: auto;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.nav-list li:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-list {
+  margin-left: 93px;
+}
+
+.contacs-list li:last-child {
+  margin-left: 50px;
+}
+
+.contacs-list {
+  margin-left: auto;
+}
+
+.about {
+  padding: 94px 0;
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-list li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.proces {
+  padding: 94px 0;
+}
+
+.proces-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.proces-list li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team {
+  text-align: center;
+  padding: 0px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+}
+
+.text-card {
+  padding: 30px;
+}
+
+.text-card p {
+  margin-top: 10px;
+}
+
+.liteam {
+  margin-left: 30px;
+}
+
+.list-team {
+  margin-left: 0;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+.fotter-addres {
+  margin-top: 20px;
+}
+
+.nav-footer {
+  margin-top: 9px;
+}
+
+.project-present {
+  padding-top: 91px;
+  padding-bottom: 94px;
+}
+
+.list-btn {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.list-btn :not(:first-child) {
+  margin-left: 9px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.card-set > .set-li {
+  flex-basis: cals(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.set-li {
+  color: var(--back-light-white);
+}
