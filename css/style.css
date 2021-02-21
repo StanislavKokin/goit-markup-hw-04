@@ -320,6 +320,24 @@ body {
   margin-left: 0;
 }
 
+/* clients */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+.clients-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--back-light-white);
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
