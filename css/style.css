@@ -51,12 +51,22 @@ footer {
 
 .hero {
   background-color: var(--fon);
-  background-image: url(../images/Img\ герой.jpg);
+
+  background-image: linear-gradient(
+      to right,
+      rgba(58, 47, 57, 0.4),
+      rgba(58, 47, 57, 0.4)
+    ),
+    url(../images/hero.jpg);
+  block-size: cover;
+  background-position: center;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-right: auto;
   margin-left: auto;
+  height: 600px;
+  max-width: 1600px;
 }
 
 .logo {
@@ -94,6 +104,16 @@ footer {
 .nav:hover,
 .nav:focus {
   color: var(--logo);
+}
+
+.nav::before {
+  width: 16px;
+  height: 12px;
+  content: '';
+  background-image: url(../images/messenge.svg);
+  background-size: contain;
+  display: block;
+  position: absolute;
 }
 
 .hero-centr {
@@ -381,6 +401,75 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--back-light-white);
+}
+
+.client-list {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.client-list li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.client-logo1 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
+}
+
+.client-logo2 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
+}
+
+.client-logo3 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
+}
+
+.client-logo4 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
+}
+
+.client-logo5 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
+}
+
+.client-logo6 {
+  width: 170px;
+  height: 90px;
+  background-image: url(../images/logo\ 6.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4%;
 }
 
 .footer {
