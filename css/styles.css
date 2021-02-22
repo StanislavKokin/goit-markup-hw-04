@@ -106,6 +106,12 @@ header {
   margin-left: auto;
 }
 
+.icon-cont {
+  fill: currentColor;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .nav-cont .item + .item {
   margin-left: 50px;
 }
