@@ -139,8 +139,8 @@ header {
 
 .icon-cont {
   fill: currentColor;
-  margin-right: 10px;
   cursor: pointer;
+  margin: 5px 10px 0px 0px;
 }
 
 .cont-text:hover,
@@ -285,7 +285,6 @@ main {
 
 .work {
   padding-top: 0;
-  padding-bottom: 94px;
   display: flex;
 }
 
@@ -338,6 +337,9 @@ main {
 .cards {
   background-color: var(--primary-back);
   border-radius: 0px 0px 4px 4px;
+}
+
+.cards:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
