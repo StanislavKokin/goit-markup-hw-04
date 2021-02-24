@@ -115,6 +115,12 @@ header {
   color: var(--accent-color);
 }
 
+.mail-phone {
+  margin-bottom: 0px;
+  margin-top: 1px;
+  justify-content: center;
+}
+
 .nav-cont {
   display: flex;
   margin-left: auto;
@@ -282,6 +288,10 @@ main {
 }
 
 /* Work Styles */
+
+.work-container {
+  padding-bottom: 94px;
+}
 
 .work {
   padding-top: 0;
