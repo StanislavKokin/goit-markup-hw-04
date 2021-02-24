@@ -118,11 +118,12 @@ header {
 .mail-phone {
   margin-bottom: 0px;
   margin-top: 1px;
-  justify-content: center;
+  /* justify-content: center; */
+  display: inline-flex;
 }
 
 .nav-cont {
-  display: flex;
+  display: inline-flex;
   margin-left: auto;
   align-items: center;
 }
